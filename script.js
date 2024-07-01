@@ -1,9 +1,11 @@
-// Get  to DOM elements
 const gameContainer = document.querySelector(".container"),
   userResult = document.querySelector(".user_result img"),
   cpuResult = document.querySelector(".cpu_result img"),
   result = document.querySelector(".result"),
   optionImages = document.querySelectorAll(".option_image");
+
+//'gameContainer' is het hoofdelement van het spel.
+
 
 // Loop through each option image element
 optionImages.forEach((image, index) => {
@@ -64,3 +66,16 @@ optionImages.forEach((image, index) => {
     }, 2500);
   });
 });
+
+//bronvermelding
+//Afbeeldingen
+//https://freesvg.org/rock-paper-scissors
+//lettertype
+//https://fonts.google.com/selection/embed
+//youtube
+//https://www.youtube.com/watch?v=RC7NbjwP3QA&list=PLpwngcHZlPadAbdD_sFE_moH6RjgaTFCw&index=4
+//website
+//https://www.codingnepalweb.com/rock-paper-scissors-game-javascript/
+//ondersteuning van de uitleg van de code
+//https://chatgpt.com
+
